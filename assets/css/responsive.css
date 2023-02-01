@@ -1416,7 +1416,7 @@
   }
   .banner-section .banner-container .content-float-button {
     left: 38%;
-    bottom: 300px;
+    bottom: 140px;
   }
 }
 
@@ -1930,7 +1930,7 @@
   }
   .banner-section .banner-container .content-float-button {
     left: 36%;
-    bottom: 250px;
+    bottom: 120px;
   }
   .banner-section .banner-container .content-box-img img {
     width: 90%;
@@ -2058,6 +2058,5 @@
   }
   .banner-section .banner-container .content-float-button {
     left: 33%;
-    bottom: 200px;
   }
 }
