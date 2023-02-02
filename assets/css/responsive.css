@@ -782,14 +782,15 @@
     width: 50%;
     margin-top: 20px;
   }
-  .banner-section.about-banner-section .project-block-one .inner-box.big-block {
-    height: 300px;
+
+  .banner-section.about-banner-section .project-block:first-child {
+    padding-right: 5px;
   }
-  .banner-section.about-banner-section
-    .project-block-one
-    .inner-box.medium-block {
-    height: 300px;
+
+  .banner-section.about-banner-section .project-block:last-child {
+    padding-left: 5px;
   }
+  
   .banner-section.member-banner-section .member-section-float {
     display: none;
   }
@@ -1280,6 +1281,14 @@
 }
 
 @media only screen and (max-width: 599px) {
+  .banner-section.about-banner-section .project-block-one .inner-box.big-block {
+    height: 200px;
+  }
+  .banner-section.about-banner-section
+    .project-block-one
+    .inner-box.medium-block {
+    height: 200px;
+  }
   .pagination li a {
     width: 30px;
     height: 30px;
@@ -1608,7 +1617,7 @@
     text-align: center;
   }
   .about-style-two::after {
-    font-size: 170px;
+    font-size: 130px;
     padding: 20px;
     line-height: 190px;
     background: none;
@@ -1768,7 +1777,7 @@
     .project-block-one.small-block
     .inner-box {
     max-width: 100%;
-    height: 150px;
+    height: 100px;
   }
 }
 
@@ -2058,5 +2067,8 @@
   }
   .banner-section .banner-container .content-float-button {
     left: 33%;
+  }
+  .scroll-top{
+    right: 15px;
   }
 }

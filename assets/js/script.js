@@ -16,22 +16,7 @@
     }
 	
 	//Update Header Style and Scroll to Top
-	function headerStyle() {
-		if($('.main-header').length){
-			var windowpos = $(window).scrollTop();
-			var siteHeader = $('.main-header');
-			var scrollLink = $('.scroll-top');
-			if (windowpos >= 110) {
-				siteHeader.addClass('fixed-header');
-				scrollLink.addClass('open');
-			} else {
-				siteHeader.removeClass('fixed-header');
-				scrollLink.removeClass('open');
-			}
-		}
-	}
-	
-	headerStyle();
+
 
 
 	//Submenu Dropdown Toggle
@@ -349,34 +334,7 @@
 		});    		
 	}
 
-	if ($('.clasify-carousel').length) {
-		$('.clasify-carousel').owlCarousel({
-			loop:true,
-			margin:30,
-			nav:false,
-			smartSpeed: 3000,
-			autoplay: true,
-			navText: [ '<span class="fa fa-chevron-left"></span>', '<span class="fa fa-chevron-right"></span>' ],
-			responsive:{
-				0:{
-					items:1
-				},
-				480:{
-					items:1
-				},
-				600:{
-					items:1
-				},
-				800:{
-					items:1
-				},			
-				1200:{
-					items:1
-				}
-
-			}
-		});    		
-	}
+	
 	
 
 

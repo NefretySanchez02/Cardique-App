@@ -611,34 +611,28 @@ img {
 }
 
 .scroll-top {
-  width: 40px;
+  width: 90%;
   height: 40px;
   line-height: 5px;
   position: fixed;
   bottom: 105%;
-  right: 30px;
-  font-size: 15px;
+  right: 20px;
   z-index: 99;
-  color: #ffffff;
-  font-weight: 400;
-  border-radius: 50%;
+  border-radius: 5px;
   text-align: center;
   cursor: pointer;
   transition: 1s ease;
+  padding: 0 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .scroll-top.open {
   bottom: 50px;
+  background-color: #ffffff;
 }
 
-.scroll-top span {
-  color: #fff;
-  border: 2px solid;
-  border-radius: 50%;
-  padding: 5px;
-  font-weight: 900;
-  width: 30px;
-}
 
 .sec-title {
   position: relative;
@@ -2057,9 +2051,13 @@ div#mCSB_1_container {
   background-position: bottom;
 }
 
+.banner-section.about-banner-section .project-block-one.small-block.second-block .inner-box {
+  background-position: center;
+}
+
 .banner-section.about-banner-section .project-block-one .inner-box.big-block {
   max-width: 100%;
-  height: 270px;
+  height: 400px;
   float: none;
   background-size: cover;
   background-color: transparent;
@@ -2069,7 +2067,7 @@ div#mCSB_1_container {
   .project-block-one
   .inner-box.medium-block {
   max-width: 100%;
-  height: 270px;
+  height: 400px;
   background-size: cover;
   background-color: transparent;
 }
@@ -3131,7 +3129,7 @@ div#mCSB_1_container {
 
 .shop-section.directory-section.directory-about-section {
   background: #044320;
-  padding: 150px 0px 150px 0px;
+  padding: 120px 0px 150px 0px;
 }
 
 .shop-section.directory-section.directory-about-section::before {
@@ -3279,7 +3277,8 @@ div#mCSB_1_container {
 
 .shop-section.directory-section .directory-block .directory-item .sec-title h2 {
   color: #ffffff;
-  font-size: 48px;
+  font-size: 30px;
+  line-height: 30px;
   text-transform: none;
 }
 
@@ -3288,8 +3287,8 @@ div#mCSB_1_container {
 
 .shop-section.directory-section .directory-block .directory-item .text p {
   color: #ffffff;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .shop-section.directory-section .directory-block .directory-item .text {
@@ -3971,11 +3970,23 @@ div#mCSB_1_container {
 }
 
 .clasify-section .sec-title h2 {
-  font-size: 48px;
+  font-size: 30px;
+  line-height: 30px;
   text-transform: none;
   text-align: center;
   color: #3c3c3b;
 }
+
+.clasify-section .clasify-carousel {
+  text-align: center;
+}
+
+.clasify-section .clasify-carousel .item {
+  margin-top: 20px;
+}
+
+.clasify-section .clasify-carousel .item .img-none{
+display: none;}
 
 /** funfact-section **/
 
