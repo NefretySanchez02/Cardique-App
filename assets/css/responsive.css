@@ -305,6 +305,7 @@
     padding: 10px;
     background: #fff;
     border-radius: 15px;
+    box-shadow: 1px 1px 15px 0px #707070;
   }
 
   .main-header .nav-right-content .nav-box {
