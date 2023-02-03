@@ -8438,7 +8438,7 @@ div#mCSB_1_container {
   color: #250f15;
   padding: 10px 20px;
   transition: all 500ms ease;
-  background: #fafafa;
+  background: #F2F2F2;
 }
 
 .contact-section .form-inner .default-form .form-group textarea {
@@ -8453,7 +8453,7 @@ div#mCSB_1_container {
 
 .contact-section .form-inner .default-form .form-group {
   position: relative;
-  margin-bottom: 34px;
+  margin-bottom: 20px;
 }
 
 .contact-section .form-inner .default-form .form-group:last-child {
@@ -8463,8 +8463,8 @@ div#mCSB_1_container {
 .contact-section .form-inner .default-form .form-group label {
   position: relative;
   display: block;
-  font-size: 17px;
-  line-height: 22px;
+  font-size: 12px;
+  line-height: 15px;
   font-family: "LatoBlack";
   font-weight: 700;
   margin-bottom: 8px;
@@ -8677,7 +8677,7 @@ div#mCSB_1_container {
 }
 
 .contact-section.contact-form-section .contact-info-box .sec-title {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .contact-section.contact-form-section .sec-title p {
@@ -8689,11 +8689,13 @@ div#mCSB_1_container {
 }
 
 .contact-section.contact-form-section .sec-title h2 {
-  font-size: 48px;
+  font-size: 30px;
+  line-height: 30px;
 }
 
 .contact-section.contact-form-section .text p {
-  font-size: 24px;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .contact-section.contact-form-section
@@ -8711,6 +8713,9 @@ div#mCSB_1_container {
   display: inline-block;
   font-family: "LatoRegular";
   font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  margin-left: 5px;
 }
 
 .contact-section.contact-form-section .contact-float-section .block-float-1 {

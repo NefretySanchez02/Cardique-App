@@ -1777,6 +1777,21 @@
   .scroll-top {
     right: 20px;
   }
+  .contact-section.contact-form-section
+    .form-inner
+    .default-form
+    .form-group.message-btn {
+    width: 40%;
+    padding-right: 0;
+  }
+  .contact-section.contact-form-section
+    .form-inner
+    .default-form
+    .form-group.checkbox-input {
+    width: 60%;
+    display: flex;
+    align-items: start;
+  }
 }
 
 @media only screen and (max-width: 399px) {
@@ -1925,9 +1940,14 @@
   .contact-section.contact-form-section
     .form-inner
     .default-form
-    .form-group.checkbox-input
-    label {
-    font-size: 15px;
+    .form-group.message-btn {
+    width: 45%;
+  }
+  .contact-section.contact-form-section
+    .form-inner
+    .default-form
+    .form-group.checkbox-input {
+    width: 55%;
   }
   .shop-page-section.directory-page-section .dropdown.dropdown-map {
     margin-right: 20px;
@@ -2069,4 +2089,10 @@
   .scroll-top {
     right: 15px;
   }
+  .contact-section.contact-form-section .form-inner .default-form .form-group.checkbox-input {
+    width: 45%;
+}
+.contact-section.contact-form-section .form-inner .default-form .form-group.message-btn {
+  width: 55%;
+}
 }
