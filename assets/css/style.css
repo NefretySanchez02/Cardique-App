@@ -616,7 +616,7 @@ img {
   line-height: 5px;
   position: fixed;
   bottom: 105%;
-  right: 20px;
+  right: 30px;
   z-index: 99;
   border-radius: 5px;
   text-align: center;
@@ -632,7 +632,6 @@ img {
   bottom: 50px;
   background-color: #ffffff;
 }
-
 
 .sec-title {
   position: relative;
@@ -2051,7 +2050,9 @@ div#mCSB_1_container {
   background-position: bottom;
 }
 
-.banner-section.about-banner-section .project-block-one.small-block.second-block .inner-box {
+.banner-section.about-banner-section
+  .project-block-one.small-block.second-block
+  .inner-box {
   background-position: center;
 }
 
@@ -2140,7 +2141,7 @@ div#mCSB_1_container {
 }
 
 .banner-section.directory-banner-section .banner-container {
-  padding: 200px 0px 100px 0px;
+  padding: 200px 0px 20px 0px;
 }
 
 .banner-section.directory-banner-section .sec-title {
@@ -2151,7 +2152,8 @@ div#mCSB_1_container {
 .banner-section.directory-banner-section .sec-title h2 {
   color: #ffffff;
   text-transform: none;
-  font-size: 48px;
+  font-size: 30px;
+  line-height: 30px;
 }
 
 .banner-section.directory-banner-section .text p {
@@ -2161,6 +2163,7 @@ div#mCSB_1_container {
 .banner-section.directory-banner-section .text p {
   color: #ffffff;
   font-size: 12px;
+  line-height: 15px;
 }
 
 .banner-section.directory-banner-section .text p > strong {
@@ -3985,8 +3988,9 @@ div#mCSB_1_container {
   margin-top: 20px;
 }
 
-.clasify-section .clasify-carousel .item .img-none{
-display: none;}
+.clasify-section .clasify-carousel .item .img-none {
+  display: none;
+}
 
 /** funfact-section **/
 
@@ -7538,103 +7542,81 @@ display: none;}
 
 .shop-page-section.directory-page-section .map-section svg {
   width: 100%;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: -70px;
 }
 
-.shop-page-section.directory-page-section .map-section .view-directory {
+.shop-page-section.directory-page-section .view-directory {
   background: #ffffff;
-  padding: 75px 50px 50px;
+  padding: 50px 30px 40px;
   border-radius: 30px;
+  margin-top: 50px;
   display: none;
 }
 
-.shop-page-section.directory-page-section .map-section .view-directory .title {
+.shop-page-section.directory-page-section .view-directory .title {
   display: inline-flex;
   align-items: center;
 }
 
-.shop-page-section.directory-page-section .map-section .view-directory h2 {
+.shop-page-section.directory-page-section .view-directory h2 {
   font-family: "LatoBlack";
   font-size: 24px;
   color: #070707;
 }
 
-.shop-page-section.directory-page-section
-  .map-section
-  .view-directory
-  .title
-  h2 {
+.shop-page-section.directory-page-section .view-directory .title h2 {
   margin-left: 20px;
 }
 
-.shop-page-section.directory-page-section .map-section .view-directory .text {
+.shop-page-section.directory-page-section .view-directory .text {
   margin-top: 20px;
   margin-bottom: 50px;
 }
 
-.shop-page-section.directory-page-section .map-section .view-directory p {
+.shop-page-section.directory-page-section .view-directory p {
   font-family: "LatoRegular";
   font-size: 24px;
   color: #070707;
 }
 
-.shop-page-section.directory-page-section .map-section .view-directory .text p {
+.shop-page-section.directory-page-section .view-directory .text p {
   margin-bottom: 15px;
 }
 
-.shop-page-section.directory-page-section
-  .map-section
-  .view-directory
-  .clasify {
+.shop-page-section.directory-page-section .view-directory .clasify {
   float: right;
 }
 
-.shop-page-section.directory-page-section
-  .map-section
-  .view-directory
-  .clasify
-  p {
+.shop-page-section.directory-page-section .view-directory .clasify:first-child {
+  margin-top: -30px;
+}
+
+.shop-page-section.directory-page-section .view-directory .clasify p {
   display: inline-block;
   font-family: "LatoBlack";
+  margin-left: 10px;
 }
 
-.shop-page-section.directory-page-section
-  .map-section
-  .view-directory
-  .clasify
-  span {
+.shop-page-section.directory-page-section .view-directory .clasify span {
   margin-left: 5px;
+  font-size: 30px;
 }
 
-.shop-page-section.directory-page-section
-  .map-section
-  .view-directory
-  .clasify
-  span
-  img {
+.shop-page-section.directory-page-section .view-directory .clasify span img {
   margin-top: -10px;
 }
 
-.shop-page-section.directory-page-section
-  .map-section
-  .view-directory
-  .services {
+.shop-page-section.directory-page-section .view-directory .services {
   margin-top: 50px;
 }
 
-.shop-page-section.directory-page-section
-  .map-section
-  .view-directory
-  .services-images {
+.shop-page-section.directory-page-section .view-directory .services-images {
   display: inline-flex;
   margin-top: 20px;
 }
 
-.shop-page-section.directory-page-section
-  .map-section
-  .view-directory
-  .service-block-img {
+.shop-page-section.directory-page-section .view-directory .service-block-img {
   width: 260px;
   height: 280px;
   background: #d9d9d9;
@@ -7643,21 +7625,16 @@ display: none;}
 }
 
 .shop-page-section.directory-page-section
-  .map-section
   .view-directory
   .service-block-img:first-child {
   margin-left: 0px;
 }
 
-.shop-page-section.directory-page-section
-  .map-section
-  .view-directory
-  .directory-footer {
+.shop-page-section.directory-page-section .view-directory .directory-footer {
   margin-top: 20px;
 }
 
 .shop-page-section.directory-page-section
-  .map-section
   .view-directory
   .directory-footer
   .links-block {
@@ -7665,7 +7642,6 @@ display: none;}
 }
 
 .shop-page-section.directory-page-section
-  .map-section
   .view-directory
   .directory-footer
   .links-block
@@ -7674,7 +7650,6 @@ display: none;}
 }
 
 .shop-page-section.directory-page-section
-  .map-section
   .view-directory
   .directory-footer
   .links-block
@@ -7688,7 +7663,6 @@ display: none;}
 }
 
 .shop-page-section.directory-page-section
-  .map-section
   .view-directory
   .directory-footer
   .links-block
@@ -7702,7 +7676,6 @@ display: none;}
 }
 
 .shop-page-section.directory-page-section
-  .map-section
   .view-directory
   .directory-footer
   .theme-btn-one {
@@ -7710,11 +7683,10 @@ display: none;}
 }
 
 .shop-page-section.directory-page-section
-  .map-section
   .view-directory
   .directory-footer
   .link-products {
-  text-align: end;
+  margin-top: 20px;
 }
 
 /*** 
