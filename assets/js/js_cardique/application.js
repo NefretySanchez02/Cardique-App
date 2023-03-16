@@ -1,6 +1,5 @@
 var application = {
-  service_url:
-    "https://felixestudiocreativo.com/web-previews/Negocios-verdes/backoffice/services/",
+  service_url: "../Cardique-Web/backoffice/services/",
   debugMode: false,
 
   /**
