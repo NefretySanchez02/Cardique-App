@@ -490,7 +490,7 @@
   }
   .shop-page-section.directory-page-section .map-section svg {
     width: 800px !important;
-    height: 900px !important;
+    height: 950px !important;
   }
 }
 
@@ -1418,8 +1418,9 @@
   }
 
   .shop-page-section.directory-page-section .map-section svg {
-    width: 400px !important;
-    height: 400px !important;
+    width: 600px !important;
+    height: 800px !important;
+    margin-left: -90px;
   }
   .banner-section .banner-container .content-box-img .content-inner-box {
     left: 25%;
@@ -1427,6 +1428,9 @@
   .banner-section .banner-container .content-float-button {
     left: 38%;
     bottom: 140px;
+  }
+  .view-item-directory .modal-dialog {
+    max-width: 400px;
   }
 }
 
@@ -1762,7 +1766,8 @@
     text-align: center;
   }
   .shop-page-section.directory-page-section .dropdown.dropdown-map {
-    margin-left: 25px;
+    margin-left: 20px;
+
   }
 
   .shop-page-section.directory-page-section .download-pdf {
@@ -1963,6 +1968,14 @@
   .banner-section .banner-container .content-box-img img {
     width: 90%;
   }
+  .shop-page-section.directory-page-section .map-section svg {
+    width: 500px !important;
+    height: 600px !important;
+    margin-left: -70px;
+  }
+  .view-item-directory .modal-dialog {
+    max-width: 350px;
+  }
 }
 
 @media only screen and (max-width: 330px) {
@@ -2075,8 +2088,8 @@
   }
 
   .shop-page-section.directory-page-section .map-section svg {
-    width: 350px !important;
-    height: 350px !important;
+    width: 450px !important;
+    height: 550px !important;
   }
   .shop-page-section.directory-page-section .dropdown.dropdown-map {
     margin-right: 0px;
@@ -2090,10 +2103,25 @@
   .scroll-top {
     right: 15px;
   }
-  .contact-section.contact-form-section .form-inner .default-form .form-group.checkbox-input {
+  .contact-section.contact-form-section
+    .form-inner
+    .default-form
+    .form-group.checkbox-input {
     width: 45%;
-}
-.contact-section.contact-form-section .form-inner .default-form .form-group.message-btn {
-  width: 55%;
+  }
+  .contact-section.contact-form-section
+    .form-inner
+    .default-form
+    .form-group.message-btn {
+    width: 55%;
+  }
+  .view-item-directory .modal-dialog {
+    max-width: 300px;
+  }
+  .view-item-directory .view-directory .title img {
+    width: 70px;
+  }
+  .view-item-directory .view-directory .title h2 {
+    font-size: 16px;
 }
 }

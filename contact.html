@@ -43,7 +43,34 @@
   <body>
     <div class="boxed_wrapper">
       <!-- preloader -->
-      <div class="loader-wrap" id="preloader-asomeja"></div>
+      <div class="loader-wrap" id="preloader-app">
+        <div class="preloader">
+          <section class="banner-section banner-section--static style-one">
+            <div class="banner-container">
+              <div class="container">
+                <div class="content-inner">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="content-box-img">
+                        <div class="content-inner-box">
+                          <p>
+                            <strong>¡Bienvenidos</strong> a nuestra ventanilla!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="content-box-img">
+                        <img src="assets/images/img_cardique/02.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
       <!-- preloader end -->
 
       <!-- sidebar cart item -->
@@ -60,9 +87,7 @@
           <div class="outer-box">
             <div class="logo-box">
               <figure class="logo">
-                <a href="index.html"
-                  ><img src="assets/images/icons_cardique/logo-2.svg" alt=""
-                /></a>
+                <img src="assets/images/icons_cardique/logo-2.svg" alt="" />
               </figure>
             </div>
             <div class="menu-area">
@@ -179,15 +204,16 @@
               <div class="form-inner">
                 <form
                   method="post"
-                  action="sendemail.php"
+                  action="javascript:void(0);"
                   id="contact-form"
                   class="default-form"
                   novalidate="novalidate"
+                  onsubmit="SendMail()"
                 >
                   <div class="row clearfix">
                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                       <label>Nombre completo</label>
-                      <input type="text" name="username" />
+                      <input type="text" name="name" />
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                       <label>Correo electrónico</label>
@@ -205,6 +231,15 @@
                       <label>Mensaje</label>
                       <textarea name="message"></textarea>
                     </div>
+                  </div>
+                  <div class="row clearfix section-send">
+                    <div
+                      class="col-lg-8 col-md-8 col-sm-8 form-group checkbox-input"
+                    >
+                      <input type="checkbox" name="tratament" required /><label
+                        >Acepto el uso y tratamiento de datos personales.</label
+                      >
+                    </div>
                     <div
                       class="col-lg-4 col-md-4 col-sm-4 form-group message-btn"
                     >
@@ -215,13 +250,6 @@
                       >
                         Enviar mensaje
                       </button>
-                    </div>
-                    <div
-                      class="col-lg-8 col-md-8 col-sm-8 form-group checkbox-input"
-                    >
-                      <input type="checkbox" name="subject" /><label
-                        >Acepto el uso y tratamiento de datos personales.</label
-                      >
                     </div>
                   </div>
                 </form>
@@ -242,7 +270,7 @@
       <!--Scroll to top-->
       <div class="scroll-top scroll-to-target open" data-target="html">
         <span>
-          <a href="about.html"
+          <a href="index.html"
             ><img
               src="assets/images/img_cardique/folder_open_FILL0_wght400_GRAD0_opsz48.png"
               alt=""
@@ -284,6 +312,7 @@
     <script src="assets/js/js_asomeja/footer.js"></script>
     <script src="assets/js/js_cardique/map_index.js"></script>
     <script src="assets/js/js_cardique/input_document.js"></script>
+    <script src="assets/js/js_cardique/mail-contact.js"></script>
   </body>
   <!-- End of .page_wrapper -->
 </html>
