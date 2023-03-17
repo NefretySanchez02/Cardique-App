@@ -221,9 +221,8 @@
                         type="search"
                         name="search-field"
                         placeholder="Escriba aquí el nombre del negocio verde"
-                        required=""
-                        id="myInput"
-                        onkeyup="myFunction()"
+                        id="inputSearch"
+                        onkeyup="messagesUIManagerCourse.drawSearchItems()"
                       />
                     </div>
                   </form>
@@ -246,11 +245,22 @@
                   Categoría <i class="fa fa-chevron-circle-right"></i>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#"
+                  <a
+                    role="button"
+                    class="dropdown-item"
+                    onclick="messagesUIManagerCourse.drawCategoryItems('Bioproductos y servicios sostenibles')"
                     >Bioproductos y <br />servicios sostenibles</a
                   >
-                  <a class="dropdown-item" href="#">Acción climatica</a>
-                  <a class="dropdown-item" href="#"
+                  <a
+                    role="button"
+                    class="dropdown-item"
+                    onclick="messagesUIManagerCourse.drawCategoryItems('Acción climatica')"
+                    >Acción climatica</a
+                  >
+                  <a
+                    role="button"
+                    class="dropdown-item"
+                    onclick="messagesUIManagerCourse.drawCategoryItems('Ecoproductos Industriales')"
                     >Ecoproductos Industriales</a
                   >
                 </div>
@@ -267,12 +277,30 @@
                   Zona <i class="fa fa-chevron-circle-right"></i>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Todos</a>
-                  <a class="dropdown-item" href="#">Zona norte</a>
-                  <a class="dropdown-item" href="#"
+                  <a
+                    role="button"
+                    class="dropdown-item"
+                    onclick="messagesUIManagerCourse.drawZonaItems('Todos')"
+                    >Todos</a
+                  >
+                  <a
+                    role="button"
+                    class="dropdown-item"
+                    onclick="messagesUIManagerCourse.drawZonaItems('Norte')"
+                    >Zona norte</a
+                  >
+                  <a
+                    role="button"
+                    class="dropdown-item"
+                    onclick="messagesUIManagerCourse.drawZonaItems('Montes de Maria')"
                     >Ecorregión Montes de María</a
                   >
-                  <a class="dropdown-item" href="#">Canal del Dique</a>
+                  <a
+                    role="button"
+                    class="dropdown-item"
+                    onclick="messagesUIManagerCourse.drawZonaItems('Canal del Dique')"
+                    >Canal del Dique</a
+                  >
                 </div>
               </div>
               <div class="dropdown dropdown-map">
@@ -287,10 +315,23 @@
                   Ubicación <i class="fa fa-chevron-circle-right"></i>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Cartagena</a>
-                  <a class="dropdown-item" href="#">San Juna Nepobuceno</a>
-                  <a class="dropdown-item" href="#"
-                    >Ecoproductos Industriales</a
+                  <a
+                    role="button"
+                    class="dropdown-item"
+                    onclick="messagesUIManagerCourse.drawUbicacionItems('Cartagena')"
+                    >Cartagena</a
+                  >
+                  <a
+                    role="button"
+                    class="dropdown-item"
+                    onclick="messagesUIManagerCourse.drawUbicacionItems('San Juan')"
+                    >San Juna Nepobuceno</a
+                  >
+                  <a
+                    role="button"
+                    class="dropdown-item"
+                    onclick="messagesUIManagerCourse.drawUbicacionItems('San Jacinto')"
+                    >San Jacinto</a
                   >
                 </div>
               </div>
@@ -2904,8 +2945,7 @@
                       src="assets/images/img_cardique/Trazado 7066.png"
                       alt=""
                     /> </span
-                  ></span
-                >
+                ></span>
               </button>
             </div>
             <div class="modal-body" id="view-item"></div>
