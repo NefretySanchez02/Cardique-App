@@ -43,34 +43,7 @@
   <body>
     <div class="boxed_wrapper">
       <!-- preloader -->
-      <div class="loader-wrap">
-        <div class="preloader">
-          <section class="banner-section banner-section--static style-one">
-            <div class="banner-container">
-              <div class="container">
-                <div class="content-inner">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <div class="content-box-img">
-                        <div class="content-inner-box">
-                          <p>
-                            <strong>¡Bienvenidos</strong> a nuestra ventanilla!
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="content-box-img">
-                        <img src="assets/images/img_cardique/02.png" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
+    
       <!-- preloader end -->
 
       <!-- sidebar cart item -->
@@ -231,7 +204,7 @@
               </div>
             </div>
             <div
-              class="row align-items-center justify-content-md-center clearfix"
+              class="row align-items-center justify-content-center clearfix"
             >
               <div class="dropdown dropdown-map">
                 <button
@@ -303,41 +276,14 @@
                   >
                 </div>
               </div>
-              <div class="dropdown dropdown-map">
-                <button
-                  class="dropdown-toggle"
-                  type="button"
-                  id="dropdownMenuButton"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Ubicación <i class="fa fa-chevron-circle-right"></i>
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a
-                    role="button"
-                    class="dropdown-item"
-                    onclick="messagesUIManagerCourse.drawUbicacionItems('Cartagena')"
-                    >Cartagena</a
-                  >
-                  <a
-                    role="button"
-                    class="dropdown-item"
-                    onclick="messagesUIManagerCourse.drawUbicacionItems('San Juan')"
-                    >San Juna Nepobuceno</a
-                  >
-                  <a
-                    role="button"
-                    class="dropdown-item"
-                    onclick="messagesUIManagerCourse.drawUbicacionItems('San Jacinto')"
-                    >San Jacinto</a
-                  >
-                </div>
-              </div>
             </div>
             <div class="map-section">
-              <svg
+              <div class="s-c-cardique__btn-zoom">
+                <button class="theme-btn-one" id="s-js-cardique__zoom-in">+</button>
+                <button class="theme-btn-one" id="s-js-cardique__zoom-out">-</button>
+              </div>
+              <div class="c-c-map-content" id="c-js-map">
+                <svg
                 id="Grupo_4128"
                 data-name="Grupo 4128"
                 xmlns="http://www.w3.org/2000/svg"
@@ -2924,6 +2870,8 @@
                   </g>
                 </g>
               </svg>
+              </div>
+              
             </div>
           </div>
         </div>
@@ -2992,9 +2940,7 @@
 
     <!-- main-js -->
     <script src="assets/js/script.js"></script>
-    <script src="assets/js/js_asomeja/preloader.js"></script>
     <script src="assets/js/js_asomeja/sidebar.js"></script>
-    <script src="assets/js/js_asomeja/footer.js"></script>
     <script src="assets/js/js_cardique/input_document.js"></script>
     <script src="assets/js/js_cardique/application.js"></script>
     <script src="assets/js/js_cardique/negocios_verdes.js"></script>

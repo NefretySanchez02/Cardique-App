@@ -8799,6 +8799,10 @@ div#mCSB_1_container {
   color: #3c3c3b;
 }
 
+.s-c-cardique__btn-zoom {
+  text-align: end;
+}
+
 .google-map-section {
   position: relative;
   width: 100%;

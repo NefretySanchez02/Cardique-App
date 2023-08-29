@@ -5,7 +5,7 @@
 	//Hide Loading Box (Preloader)
 	function handlePreloader() {
 		if($('.loader-wrap').length){
-			$('.loader-wrap').delay(1000).fadeOut(200);
+			$('.loader-wrap').delay(3000).fadeOut(200);
 		}
 	}
 
@@ -503,9 +503,9 @@
    When document is Scrollig, do
    ========================================================================== */
 	
-	$(window).on('scroll', function() {
+	/* $(window).on('scroll', function() {
 		headerStyle();
-	});
+	}); */
 
 	
 	
